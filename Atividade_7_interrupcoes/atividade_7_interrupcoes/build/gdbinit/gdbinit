@@ -1,0 +1,2 @@
+source /home/edriel/workspace_esp/hello_world/build/gdbinit/symbols
+source /home/edriel/workspace_esp/hello_world/build/gdbinit/connect

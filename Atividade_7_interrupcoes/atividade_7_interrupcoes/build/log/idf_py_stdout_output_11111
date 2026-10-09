@@ -1,0 +1,37 @@
+Command: cmake -G Ninja -B /home/edriel/workspace_esp/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/edriel/.espressif/tools/python/v6.1-beta1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/edriel/workspace_esp/hello_world
+-- Component directory /home/edriel/.espressif/v6.1-beta1/esp-idf/components/idf_test does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - ON
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /home/edriel/workspace_esp/hello_world/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- App "hello_world" version: 1
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+--   -> Preprocessing .in script: /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Preprocessing .in script: /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Applying ldgen processing: /home/edriel/workspace_esp/hello_world/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Adding linker script /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_regi2c/esp32/rom.regi2c.ld
+-- Components: app_update bootloader bootloader_support cxx efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_driver_dma esp_driver_gpio esp_hal_ana_conv esp_hal_clock esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_i2s esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_mm esp_partition esp_pm esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console esptool_py freertos hal heap log main mbedtls partition_table pthread soc spi_flash xtensa
+-- Component paths: /home/edriel/.espressif/v6.1-beta1/esp-idf/components/app_update /home/edriel/.espressif/v6.1-beta1/esp-idf/components/bootloader /home/edriel/.espressif/v6.1-beta1/esp-idf/components/bootloader_support /home/edriel/.espressif/v6.1-beta1/esp-idf/components/cxx /home/edriel/.espressif/v6.1-beta1/esp-idf/components/efuse /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_app_format /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_blockdev /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_bootloader_format /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_common /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_driver_dma /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_driver_gpio /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_ana_conv /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_clock /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_dma /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_gpio /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_gpspi /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_i2s /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_mspi /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_pmu /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_regi2c /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_rtc_timer /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_security /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_systimer /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_timg /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_touch_sens /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_uart /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_usb /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hal_wdt /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_hw_support /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_libc /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_mm /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_partition /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_pm /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_rom /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_security /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_stdio /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_system /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_timer /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esp_usb_cdc_rom_console /home/edriel/.espressif/v6.1-beta1/esp-idf/components/esptool_py /home/edriel/.espressif/v6.1-beta1/esp-idf/components/freertos /home/edriel/.espressif/v6.1-beta1/esp-idf/components/hal /home/edriel/.espressif/v6.1-beta1/esp-idf/components/heap /home/edriel/.espressif/v6.1-beta1/esp-idf/components/log /home/edriel/workspace_esp/hello_world/main /home/edriel/.espressif/v6.1-beta1/esp-idf/components/mbedtls /home/edriel/.espressif/v6.1-beta1/esp-idf/components/partition_table /home/edriel/.espressif/v6.1-beta1/esp-idf/components/pthread /home/edriel/.espressif/v6.1-beta1/esp-idf/components/soc /home/edriel/.espressif/v6.1-beta1/esp-idf/components/spi_flash /home/edriel/.espressif/v6.1-beta1/esp-idf/components/xtensa
+-- Configuring done (3.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/edriel/workspace_esp/hello_world/build

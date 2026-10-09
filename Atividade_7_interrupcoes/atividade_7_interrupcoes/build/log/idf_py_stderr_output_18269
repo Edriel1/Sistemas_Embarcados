@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -B /home/edriel/workspace_esp/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/edriel/.espressif/tools/python/v6.1-beta1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/edriel/workspace_esp/hello_world
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully

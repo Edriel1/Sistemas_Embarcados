@@ -1,0 +1,3 @@
+CompileFlags:
+  CompilationDatabase: /home/edriel/workspace_esp/hello_world/build
+  Remove: [-m*, -f*]
