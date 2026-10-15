@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

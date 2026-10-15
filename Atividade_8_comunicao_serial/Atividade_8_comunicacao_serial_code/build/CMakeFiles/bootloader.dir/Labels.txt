@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/CMakeFiles/bootloader-complete.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

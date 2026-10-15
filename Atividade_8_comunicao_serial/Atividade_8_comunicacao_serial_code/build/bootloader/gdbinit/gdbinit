@@ -1,0 +1,2 @@
+source /home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader/gdbinit/symbols
+source /home/edriel/workspace_esp/Atividade_8_comunicao_serial_code/build/bootloader/gdbinit/connect
