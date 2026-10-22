@@ -1,0 +1,7 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=/home/edriel/workspace_esp/Atividade_9_ADC/build/specs/picolibc.specs"
+-fno-rtti

@@ -1,0 +1,2 @@
+source /home/edriel/workspace_esp/Atividade_9_ADC/build/bootloader/gdbinit/symbols
+source /home/edriel/workspace_esp/Atividade_9_ADC/build/bootloader/gdbinit/connect
